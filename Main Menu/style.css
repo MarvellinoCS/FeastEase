@@ -1,0 +1,49 @@
+/* HEADER */
+.header {
+  position: sticky;
+  top: 0;
+  margin-top: 30px;
+  border-bottom: 3px solid #406D59;
+  padding-bottom: 20px;
+}
+
+.garis3_header {
+  position: relative;
+  left: 90px;
+}
+
+.FeastEase_header {
+  position: relative;
+  left: 100px;
+}
+
+.News_header {
+  position: relative;
+  left: 470px;
+  top: 5px;
+}
+
+.about_header {
+  position: relative;
+  left: 510px;
+  top: 5px;
+}
+
+.login_header {
+  position: relative;
+  left: 550px;
+  top: 7px;
+}
+
+/* Banner Gambar dan greet */
+.welcomeNgreet{
+    margin-top: 0;
+
+}
+.bannerWelcome{
+    position: relative;
+    width: 1190px;
+    height: 600px;
+
+
+}
