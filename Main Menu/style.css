@@ -1,35 +1,42 @@
 /* HEADER */
 .header {
-  position: sticky;
-  top: 0;
+  z-index: 5;
+  background-color: white;
   margin-top: 30px;
   border-bottom: 3px solid #406D59;
   padding-bottom: 20px;
+  position: sticky;
+  top: 0;
 }
 
 .garis3_header {
+  z-index: 3;
   position: relative;
   left: 90px;
 }
 
 .FeastEase_header {
+  z-index: 3;
   position: relative;
   left: 100px;
 }
 
 .News_header {
+  z-index: 3;
   position: relative;
   left: 470px;
   top: 5px;
 }
 
 .about_header {
+  z-index: 3;
   position: relative;
   left: 510px;
   top: 5px;
 }
 
 .login_header {
+  z-index: 3;
   position: relative;
   left: 550px;
   top: 7px;
@@ -37,13 +44,48 @@
 
 /* Banner Gambar dan greet */
 .welcomeNgreet{
-    margin-top: 0;
-
+    margin-top: 10;
 }
 .bannerWelcome{
-    position: relative;
-    width: 1190px;
-    height: 600px;
+  position: absolute;
+  z-index: 1;
+  width: 1190px;
+  height: 600px;
+}
+.greetWelcome{
+  position: relative;
+  z-index: 2;
+  width: 150x;
+  height: 150px;
+  left: 90px;
+  top: 130px;
+}
 
-
+/* Banner easy way to  */
+.easywaytouse{
+  background-color: white;
+}
+.titleEasyway{
+  z-index: 2;
+  position: relative;
+  top: 150px;
+  left: 355px;
+}
+.box1easy{
+  position: relative;
+  z-index: 2;
+  top: 600px;
+  left: -490px;
+}
+.box2easy{
+  position: relative;
+  z-index: 2;
+  top: 260px;
+  left: 430px;
+}
+.box3easy{
+  position: relative;
+  z-index: 2;
+  top: 218px;
+  left: 440px;
 }
