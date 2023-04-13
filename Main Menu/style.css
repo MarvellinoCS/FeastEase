@@ -2,55 +2,57 @@
 .header {
   z-index: 5;
   background-color: white;
-  margin-top: 30px;
+  margin-right: 0px;
   border-bottom: 3px solid #406D59;
   padding-bottom: 20px;
-  position: sticky;
-  top: 0;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
 }
 
 .garis3_header {
-  z-index: 3;
+  z-index: 6;
   position: relative;
   left: 90px;
 }
 
 .FeastEase_header {
-  z-index: 3;
+  z-index: 6;
   position: relative;
   left: 100px;
 }
 
 .News_header {
-  z-index: 3;
+  z-index: 6;
   position: relative;
   left: 470px;
   top: 5px;
 }
 
 .about_header {
-  z-index: 3;
+  z-index: 6;
   position: relative;
   left: 510px;
   top: 5px;
 }
 
 .login_header {
-  z-index: 3;
+  z-index: 6;
   position: relative;
   left: 550px;
   top: 7px;
 }
 
 /* Banner Gambar dan greet */
-.welcomeNgreet{
-    margin-top: 10;
-}
 .bannerWelcome{
   position: absolute;
   z-index: 1;
   width: 1190px;
   height: 600px;
+  margin: 0;
+  padding: 0;
+  top: 70px;
 }
 .greetWelcome{
   position: relative;
@@ -64,28 +66,91 @@
 /* Banner easy way to  */
 .easywaytouse{
   background-color: white;
+  z-index: 2;
 }
 .titleEasyway{
-  z-index: 2;
-  position: relative;
-  top: 150px;
-  left: 355px;
+  z-index: 3;
+  position: absolute;
+  top: 800px;
+  left: 600px;
+  transform: translateX(-50%);
 }
 .box1easy{
-  position: relative;
-  z-index: 2;
-  top: 600px;
-  left: -490px;
+  position: absolute;
+  z-index: 4;
+  top: 950px;
+  left: 250px;
+  transform: translateX(-50%);
 }
 .box2easy{
-  position: relative;
-  z-index: 2;
-  top: 260px;
-  left: 430px;
+  position: absolute;
+  z-index: 3;
+  top: 900px;
+  left: 610px;
+  transform: translateX(-50%);
 }
 .box3easy{
-  position: relative;
-  z-index: 2;
-  top: 218px;
-  left: 440px;
+  position: absolute;
+  z-index: 3;
+  top: 973px;
+  left: 960px;
+  transform: translateX(-50%);
 }
+.vector1{
+  position: absolute;
+  z-index: 1;
+  height: 1440px;
+  width: 1200px;
+  top: 640px;
+  left: 600px;
+  transform: translateX(-50%);
+}
+.vector2{
+  position: absolute;
+  z-index: 1;
+  height: 1500px;
+  width: 1200px;
+  top: 645px;
+  left: 600px;
+  transform: translateX(-50%);
+}
+
+/* We Delivery  */
+.weBackground{
+  position: absolute;
+  z-index: 1;
+  height: 1500px;
+  width: 1200px;
+  top: 1156px;
+  left: 600px;
+  transform: translateX(-50%);
+}
+.weImage{
+  position: absolute;
+  z-index: 2;
+  height: 582px;
+  width: 464px;
+  top: 1415px;
+  left: 330px;
+  transform: translateX(-50%);
+}
+.weContent{
+  position: absolute;
+  z-index: 2;
+  height: 260px;
+  width: 500px;
+  top: 1505px;
+  left: 850px;
+  transform: translateX(-50%);
+}
+.weButton{
+  position: absolute;
+  z-index: 2;
+  height: 68px;
+  width: 212px;
+  top: 1780px;
+  left: 707px;
+  transform: translateX(-50%);
+}
+
+/* Why Choose us? bcz why not */
