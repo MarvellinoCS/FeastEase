@@ -9,39 +9,55 @@
   top: 0px;
   left: 0px;
   right: 0px;
+  height: 60px;
 }
 
 .garis3_header {
   z-index: 6;
   position: relative;
   left: 90px;
+  top: 15px;
 }
 
 .FeastEase_header {
   z-index: 6;
   position: relative;
   left: 100px;
+  top: 15px;
 }
-
-.News_header {
-  z-index: 6;
+.news_h{
+  font-family: 'Inter', sans-serif;
+  font-weight: 1000;
+  font-size: 19px;
+  color: #406D59;
+  margin: 0px;
   position: relative;
-  left: 470px;
-  top: 5px;
+  z-index: 3;
+  top: -10px;
+  left: 600px;
+  border-radius: 100px;
+  border: 1.5px solid #406D59;
+  margin: 0px;
+  padding-bottom: 17px;
+  padding-top: 1px;
+  padding-left: 10px;
+
+  width: 63px;
+  height: 9px;
 }
 
 .about_header {
   z-index: 6;
   position: relative;
-  left: 510px;
-  top: 5px;
+  left: 746px;
+  top: -50px;
 }
 
 .login_header {
   z-index: 6;
   position: relative;
-  left: 550px;
-  top: 7px;
+  left: 813px;
+  top: -47px;
 }
 
 /* Banner Gambar dan greet */
