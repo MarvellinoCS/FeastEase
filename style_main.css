@@ -159,14 +159,32 @@
   left: 850px;
   transform: translateX(-50%);
 }
-.weButton{
-  position: absolute;
-  z-index: 2;
-  height: 68px;
-  width: 212px;
-  top: 1780px;
-  left: 707px;
+.order_now{
+  font-family: 'Inter', sans-serif;
+  font-weight: 1000;
+  font-size: 20px;
+  color: white;
+  margin: 0px;
+  position: relative;
+  z-index: 7;
+  top: 1630px;
+  left: 680px;
+  border-radius: 15px;
+  border: 1.5px solid white;
+  margin: 0px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 30px;
+
+  width: 140px;
+  height: 26px;
   transform: translateX(-50%);
+}
+.order_now:hover{
+  border: transparent;
+  color: #8FD197;
+  background-color: black;
+  
 }
 
 /* Why Choose us? bcz why not */
@@ -176,7 +194,7 @@
   height: 65px;
   width: 595x;
   top: 2150px;
-  left: 600px;
+  left: 625px;
   transform: translateX(-50%);
 }
 .logoEasy{
@@ -206,14 +224,32 @@
   left: 970px;
   transform: translateX(-50%);
 }
-.registerWhychoose{
-  position: absolute;
-  z-index: 2;
-  height: 77px;
-  width: 281x;
-  top: 2500px;
+.register_button{
+  font-family: 'Inter', sans-serif;
+  font-weight: 1000;
+  font-size: 25px;
+  color: black;
+  margin: 0px;
+  position: relative;
+  z-index: 7;
+  top: 2350px;
   left: 600px;
+  border-radius: 15px;
+  border: 1.5px solid black;
+  margin: 0px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-left: 79px;
+  padding-right: -10px;
+
+  width: 230px;
+  height: 26px;
   transform: translateX(-50%);
+}
+.register_button:hover{
+  border: white;
+  background-color: black;
+  color: white;
 }
 
 /* footer */
