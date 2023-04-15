@@ -1,0 +1,301 @@
+/* HEADER */
+.header {
+  z-index: 5;
+  background-color: white;
+  margin-right: 0px;
+  border-bottom: 3px solid #406D59;
+  padding-bottom: 20px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 60px;
+}
+
+.garis3_header {
+  z-index: 6;
+  position: relative;
+  left: 90px;
+  top: 15px;
+}
+
+.FeastEase_header {
+  z-index: 6;
+  position: relative;
+  left: 100px;
+  top: 15px;
+}
+.news_h{
+  font-family: 'Inter', sans-serif;
+  font-weight: 1000;
+  font-size: 19px;
+  color: #406D59;
+  margin: 0px;
+  position: relative;
+  z-index: 3;
+  top: -10px;
+  left: 600px;
+  border-radius: 100px;
+  border: 1.5px solid #406D59;
+  margin: 0px;
+  padding-bottom: 17px;
+  padding-top: 1px;
+  padding-left: 10px;
+
+  width: 63px;
+  height: 9px;
+}
+
+.about_header {
+  z-index: 6;
+  position: relative;
+  left: 746px;
+  top: -50px;
+}
+
+.login_header {
+  z-index: 6;
+  position: relative;
+  left: 813px;
+  top: -47px;
+}
+
+/* Banner Gambar dan greet */
+.bannerWelcome{
+  position: absolute;
+  z-index: 1;
+  width: 1190px;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+  top: 70px;
+}
+.greetWelcome{
+  position: relative;
+  z-index: 2;
+  width: 150x;
+  height: 150px;
+  left: 90px;
+  top: 130px;
+}
+
+/* Banner easy way to  */
+.easywaytouse{
+  background-color: white;
+  z-index: 2;
+}
+.titleEasyway{
+  z-index: 3;
+  position: absolute;
+  top: 800px;
+  left: 600px;
+  transform: translateX(-50%);
+}
+.box1easy{
+  position: absolute;
+  z-index: 4;
+  top: 950px;
+  left: 250px;
+  transform: translateX(-50%);
+}
+.box2easy{
+  position: absolute;
+  z-index: 3;
+  top: 900px;
+  left: 610px;
+  transform: translateX(-50%);
+}
+.box3easy{
+  position: absolute;
+  z-index: 3;
+  top: 973px;
+  left: 960px;
+  transform: translateX(-50%);
+}
+.vector1{
+  position: absolute;
+  z-index: 1;
+  height: 1440px;
+  width: 1200px;
+  top: 640px;
+  left: 600px;
+  transform: translateX(-50%);
+}
+.vector2{
+  position: absolute;
+  z-index: 1;
+  height: 1500px;
+  width: 1200px;
+  top: 645px;
+  left: 600px;
+  transform: translateX(-50%);
+}
+
+/* We Delivery  */
+.weBackground{
+  position: absolute;
+  z-index: 1;
+  height: 1500px;
+  width: 1200px;
+  top: 1156px;
+  left: 600px;
+  transform: translateX(-50%);
+}
+.weImage{
+  position: absolute;
+  z-index: 2;
+  height: 582px;
+  width: 464px;
+  top: 1415px;
+  left: 330px;
+  transform: translateX(-50%);
+}
+.weContent{
+  position: absolute;
+  z-index: 2;
+  height: 260px;
+  width: 500px;
+  top: 1505px;
+  left: 850px;
+  transform: translateX(-50%);
+}
+.weButton{
+  position: absolute;
+  z-index: 2;
+  height: 68px;
+  width: 212px;
+  top: 1780px;
+  left: 707px;
+  transform: translateX(-50%);
+}
+
+/* Why Choose us? bcz why not */
+.titleWhychoose{
+  position: absolute;
+  z-index: 2;
+  height: 65px;
+  width: 595x;
+  top: 2150px;
+  left: 600px;
+  transform: translateX(-50%);
+}
+.logoEasy{
+  position: absolute;
+  z-index: 2;
+  height: 55px;
+  width: 171x;
+  top: 2300px;
+  left: 250px;
+  transform: translateX(-50%);
+}
+.logoFresh{
+  position: absolute;
+  z-index: 2;
+  height: 64px;
+  width: 291x;
+  top: 2300px;
+  left: 620px;
+  transform: translateX(-50%);
+}
+.logoAffordable{
+  position: absolute;
+  z-index: 2;
+  height: 40px;
+  width: 275x;
+  top: 2315px;
+  left: 970px;
+  transform: translateX(-50%);
+}
+.registerWhychoose{
+  position: absolute;
+  z-index: 2;
+  height: 77px;
+  width: 281x;
+  top: 2500px;
+  left: 600px;
+  transform: translateX(-50%);
+}
+
+/* footer */
+.backgroundFooter
+{
+  position: absolute;
+  z-index: 1;
+  height: 293px;
+  width: 1213px;
+  top: 2750px;
+  left: 600px;
+  transform: translateX(-50%);
+}
+.FEfooter{
+  position: absolute;
+  z-index: 2;
+  height: 63px;
+  width: 225px;
+  top: 2810px;
+  left: 220px;
+  transform: translateX(-50%);
+}
+.dibuat{
+  position: absolute;
+  z-index: 2;
+  height: 118px;
+  width: 177px;
+  top: 2890px;
+  left: 260px;
+  transform: translateX(-50%);
+}
+.kantor{
+  position: absolute;
+  z-index: 2;
+  height: 20px;
+  width: 145px;
+  top: 2830px;
+  left: 570px;
+  transform: translateX(-50%);
+}
+.alamat{
+  position: absolute;
+  z-index: 2;
+  height: 200px;
+  width: 200px;
+  top: 2825px;
+  left: 595px;
+  transform: translateX(-50%);
+}
+.partner{
+  position: absolute;
+  z-index: 2;
+  height: 22px;
+  width: 100px;
+  top: 2830px;
+  left: 790px;
+  transform: translateX(-50%);
+}
+.rubicon{
+  position: absolute;
+  z-index: 2;
+  height: 88px;
+  width: 185px;
+  top: 2880px;
+  left: 831px;
+  transform: translateX(-50%);
+}
+.hubungi{
+  position: absolute;
+  z-index: 2;
+  height: 24px;
+  width: 161px;
+  top: 2830px;
+  left: 1020px;
+  transform: translateX(-50%);
+}
+.kontak{
+  position: absolute;
+  z-index: 2;
+  height: 66px;
+  width: 187px;
+  top: 2880px;
+  left: 1035px;
+  transform: translateX(-50%);
+}
