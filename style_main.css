@@ -11,19 +11,25 @@
   right: 0px;
   height: 60px;
 }
-
+.FeastEase{
+  color: #3F6D59;
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  position: relative;
+  top: -10px;
+  left: 140px;
+}
+.Feast{
+  font-weight: 500;
+}
+.Ease{
+  font-weight: 1000;
+}
 .garis3_header {
   z-index: 6;
   position: relative;
   left: 90px;
-  top: 15px;
-}
-
-.FeastEase_header {
-  z-index: 6;
-  position: relative;
-  left: 100px;
-  top: 15px;
+  top: 25px;
 }
 .news_h{
   font-family: 'Inter', sans-serif;
@@ -33,7 +39,7 @@
   margin: 0px;
   position: relative;
   z-index: 3;
-  top: -10px;
+  top: -40px;
   left: 600px;
   border-radius: 100px;
   border: 1.5px solid #406D59;
@@ -41,23 +47,79 @@
   padding-bottom: 17px;
   padding-top: 1px;
   padding-left: 10px;
-
   width: 63px;
   height: 9px;
 }
-
-.about_header {
-  z-index: 6;
-  position: relative;
-  left: 746px;
-  top: -50px;
+.news_h:hover{
+  color: white;
+  background-color: #406D59;
 }
 
-.login_header {
-  z-index: 6;
+.About_FE{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #406D59;
   position: relative;
-  left: 813px;
-  top: -47px;
+  left: 800px;
+  top: -69.5px;
+
+  border-radius: 15px;
+  border: 1.5px solid #406D59;
+  margin: 0px;
+  padding-bottom: 18px;
+  padding-top: 3px;
+  padding-left: 16px;
+  padding-right: 0px;
+
+  width: 150px;
+  height: 5px;
+  transform: translateX(-50%);
+}
+.About{
+  font-weight: 1000;
+}
+.Feast_about{
+  font-weight: 500;
+}
+.Ease_about{
+  font-weight: 1000;
+}
+.About_FE:hover{
+  color: white;
+  background-color: #406D59;
+}
+
+.login{
+  font-family: 'Inter',sans-serif;
+  font-size: 16px;
+  font-weight: 1000;
+  position: relative;
+  color: white;
+  background-color: #406D59;
+  left: 987px;
+  top: -98px;
+
+  border-radius: 15px;
+  border: 1.5px solid #406D59;
+  margin: 0px;
+  padding-bottom: 18px;
+  padding-top: 3px;
+  padding-left: 17px;
+  padding-right: 0px;
+
+  width: 60px;
+  height: 5px;
+  transform: translateX(-50%);
+}
+.login_logo{
+  position: relative;
+  transform: translateX(-50%);
+  top: -135px;
+  left: 1077px;
+}
+.login:hover{
+  background-color: white;
+  color: #406D59;
 }
 
 /* Banner Gambar dan greet */
@@ -183,8 +245,7 @@
 .order_now:hover{
   border: transparent;
   color: #8FD197;
-  background-color: black;
-  
+  background-color: white;
 }
 
 /* Why Choose us? bcz why not */
