@@ -324,24 +324,66 @@
   left: 600px;
   transform: translateX(-50%);
 }
-.FEfooter{
+.FE_footer{
   position: absolute;
+  top: 2815px;
+  left: 213px;
+  font-family: 'Inter',sans-serif;
+  color: #406D59;
   z-index: 2;
-  height: 63px;
-  width: 225px;
-  top: 2810px;
-  left: 220px;
+  transform: translateX(-50%); 
+  font-size: 45px;
+  transform: translateX(-50%);
+  
+}
+.cinta{
+  font-weight: 1000;
+}
+.dibuat_dari{
+  font-family: 'Inter',sans-serif;
+  position: absolute;
+  font-size: 25px;
+  top: 2886px;
+  left: 256px;
+  color: #406D59;
+  z-index: 2;
+  font-weight: 500;
   transform: translateX(-50%);
 }
-.dibuat{
+.cinta_f{
+  font-family: 'Inter',sans-serif;
   position: absolute;
+  font-size: 25px;
+  top: 2919px;
+  left: 289.5px;
+  color: #406D59;
   z-index: 2;
-  height: 118px;
-  width: 177px;
-  top: 2890px;
-  left: 260px;
+  font-weight: 530;
   transform: translateX(-50%);
 }
+.oleh_cinta{
+  font-family: 'Inter',sans-serif;
+  position: absolute;
+  font-size: 25px;
+  top: 2950px;
+  left: 262.5px;
+  color: #406D59;
+  z-index: 2;
+  font-weight: 500;
+  transform: translateX(-50%);
+}
+.untuk_cinta{
+  font-family: 'Inter',sans-serif;
+  position: absolute;
+  font-size: 25px;
+  top: 2983px;
+  left: 254px;
+  color: #406D59;
+  z-index: 2;
+  font-weight: 500;
+  transform: translateX(-50%);
+}
+
 .kantor{
   position: absolute;
   z-index: 2;
