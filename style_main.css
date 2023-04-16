@@ -123,7 +123,10 @@
 }
 
 /* Banner Gambar dan greet */
-.bannerWelcome{
+.welcome_greet{
+  /* animation: image-anima 61s infinite; */
+  
+  background-image: url(/Asset_main/bgmain3.svg);
   position: absolute;
   z-index: 1;
   width: 1190px;
@@ -131,16 +134,55 @@
   margin: 0;
   padding: 0;
   top: 70px;
+  transform: translateZ(0);
+  /* transition: background-image 1s ease-out; */
 }
-.greetWelcome{
-  position: relative;
-  z-index: 2;
-  width: 150x;
-  height: 150px;
+@keyframes image-anima {/* animation is posponed due to lag */
+  0%{
+    background-image: url(/Asset_main/bgmain1.svg);
+  }
+  16.6666667%{
+    background-image: url(/Asset_main/bgmain2.svg);
+  }
+  33.3333334%{
+    background-image: url(/Asset_main/bgmain3.svg);
+  }
+  50.0000001%{
+    background-image: url(/Asset_main/bgmain4.svg);
+  }
+  66.6666668%{
+    background-image: url(/Asset_main/bgmain5.svg);
+  }
+  83.3333335%{
+    background-image: url(/Asset_main/bgmain6.svg);
+  }
+  100%{
+    background-image: url(/Asset_main/bgmain7.svg);
+  }
+}
+.FE_welcome{
+  position: absolute;
+  font-family: 'Inter',sans-serif;
+  font-size: 20px;
+  color: white;
+  width: 257px;
+  height: 51px;
+  line-height: 48px;
+  top: 140px;
   left: 90px;
-  top: 130px;
 }
-
+.from_kitchen{
+  position: absolute;
+  font-family: 'Inter',sans-serif;
+  font-size: 40px;
+  color: white;
+  width: 757px;
+  height: 91px;
+  top: 225px;
+  left: 92px;
+  font-weight: 900;
+  font-style: italic;
+}
 /* Banner easy way to  */
 .easywaytouse{
   background-color: white;
@@ -212,13 +254,33 @@
   left: 330px;
   transform: translateX(-50%);
 }
-.weContent{
+.title_we_deliver{
+  font-family: 'Inter',sans-serif;
+  font-weight: 1000;
+  color: white;
+  font-size: 19px;
+  width: 582px;
+  height: 108px;
+
   position: absolute;
   z-index: 2;
-  height: 260px;
+  top: 1500px;
+  left: 892px;
+  transform: translateX(-50%);
+}
+.content_we_deliver{
+  font-family: 'Inter',sans-serif;
+  font-weight: 5000;
+  color: white;
+  font-size: 16px;
+  text-align: justify;
   width: 500px;
-  top: 1505px;
-  left: 850px;
+  height: 145px;
+
+  position: absolute;
+  z-index: 2;
+  top: 1620px;
+  left: 851px;
   transform: translateX(-50%);
 }
 .order_now{
@@ -228,8 +290,8 @@
   color: white;
   margin: 0px;
   position: relative;
-  z-index: 7;
-  top: 1630px;
+  z-index: 3;
+  top: 1740px;
   left: 680px;
   border-radius: 15px;
   border: 1.5px solid white;
@@ -292,8 +354,8 @@
   color: black;
   margin: 0px;
   position: relative;
-  z-index: 7;
-  top: 2350px;
+  z-index: 2;
+  top: 2450px;
   left: 600px;
   border-radius: 15px;
   border: 1.5px solid black;
@@ -314,19 +376,20 @@
 }
 
 /* footer */
-.backgroundFooter
-{
+.footer{
+  background-color: #F2F2F2;
   position: absolute;
   z-index: 1;
-  height: 293px;
+  height: 290px;
   width: 1213px;
   top: 2750px;
   left: 600px;
   transform: translateX(-50%);
 }
+
 .FE_footer{
   position: absolute;
-  top: 2815px;
+  top: 35px;
   left: 213px;
   font-family: 'Inter',sans-serif;
   color: #406D59;
@@ -343,7 +406,7 @@
   font-family: 'Inter',sans-serif;
   position: absolute;
   font-size: 25px;
-  top: 2886px;
+  top: 100px;
   left: 256px;
   color: #406D59;
   z-index: 2;
@@ -354,7 +417,7 @@
   font-family: 'Inter',sans-serif;
   position: absolute;
   font-size: 25px;
-  top: 2919px;
+  top: 135px;
   left: 289.5px;
   color: #406D59;
   z-index: 2;
@@ -365,7 +428,7 @@
   font-family: 'Inter',sans-serif;
   position: absolute;
   font-size: 25px;
-  top: 2950px;
+  top: 169px;
   left: 262.5px;
   color: #406D59;
   z-index: 2;
@@ -376,65 +439,90 @@
   font-family: 'Inter',sans-serif;
   position: absolute;
   font-size: 25px;
-  top: 2983px;
+  top: 203px;
   left: 254px;
   color: #406D59;
   z-index: 2;
   font-weight: 500;
   transform: translateX(-50%);
 }
+.kantor_pusat{
+  font-family: 'Inter',sans-serif;
+  position: absolute;
+  font-size: 25px;
+  top: 54px;
+  left: 573px;
+  color: #406D59;
+  z-index: 2;
+  font-weight: 1000;
+  transform: translateX(-50%);
+}
+.jalan_aja_dulu{
+  font-family: 'Inter',sans-serif;
+  position: absolute;
+  font-size: 16px;
+  top: 103px;
+  left: 600px;
+  color: #406D59;
+  z-index: 2;
+  font-weight: 600;
+  transform: translateX(-50%);
+}
 
-.kantor{
+.partner_f{
+  font-family: 'Inter',sans-serif;
   position: absolute;
+  font-size: 25px;
+  top: 54px;
+  left: 783px;
+  color: #406D59;
   z-index: 2;
-  height: 20px;
-  width: 145px;
-  top: 2830px;
-  left: 570px;
-  transform: translateX(-50%);
-}
-.alamat{
-  position: absolute;
-  z-index: 2;
-  height: 200px;
-  width: 200px;
-  top: 2825px;
-  left: 595px;
-  transform: translateX(-50%);
-}
-.partner{
-  position: absolute;
-  z-index: 2;
-  height: 22px;
-  width: 100px;
-  top: 2830px;
-  left: 790px;
+  font-weight: 1000;
   transform: translateX(-50%);
 }
 .rubicon{
+  font-family: 'Inter',sans-serif;
   position: absolute;
+  font-size: 16px;
+  top: 103px;
+  left: 830.5px;
+  color: #406D59;
   z-index: 2;
-  height: 88px;
-  width: 185px;
-  top: 2880px;
-  left: 831px;
+  font-weight: 600;
   transform: translateX(-50%);
 }
-.hubungi{
+.gijik:hover{
+  text-decoration: underline;
+}
+.grib:hover{
+  text-decoration: underline;
+}
+.tikipidiyi:hover{
+  text-decoration: underline;
+}
+.pajak_rubicon:hover{
+  text-decoration: underline;
+}
+
+.hubungi_kami{
+  font-family: 'Inter',sans-serif;
   position: absolute;
+  font-size: 25px;
+  top: 54px;
+  left: 1027.2px;
+  color: #406D59;
   z-index: 2;
-  height: 24px;
-  width: 161px;
-  top: 2830px;
-  left: 1020px;
+  font-weight: 1000;
   transform: translateX(-50%);
 }
-.kontak{
+.kapan_kapan{
+  font-family: 'Inter',sans-serif;
   position: absolute;
+  font-size: 16px;
+  top: 103px;
+  left: 1018.5px;
+  color: #406D59;
   z-index: 2;
-  height: 66px;
-  width: 187px;
-  top: 2880px;
-  left: 1035px;
+  font-weight: 600;
   transform: translateX(-50%);
 }
